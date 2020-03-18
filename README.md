@@ -31,6 +31,9 @@ In this hands-on tutorial you will use IBM Watson Visual Recognition Service and
 ![](/screenshots/watson-studio-getstarted.png)
 3. Click again on *Get Started*
 ![](/screenshots/getstarted.png)
+4. Click *Create a project)
+![](/screenshots/createaproject.png)
+
 
 
 
