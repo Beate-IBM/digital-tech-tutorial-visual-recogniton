@@ -9,15 +9,33 @@ In this hands-on tutorial you will use IBM Watson Visual Recognition Service and
 
 ## Set up the required IBM Cloud services
 
-1. Create an instance of Visual Recognition
+### 1. Create an instance of Visual Recognition
 * Open a Web browser and navigate to https://cloud.ibm.com. You should see your dashboard.
 * Click the *Create resource* button in the upper right.
 * In the left menu select *AI* and click the *Visual recognition* service.
 ![](/screenshots/catalog-visual-recognition.png)
 ![](/screenshots/visual-recognition.png)
+* Click the *Create* button in the lower right.
+* Go back to your Dashboard by clicking the *IBM Cloud* button on the very top left.
+![](/screenshots/ibm-cloud-button.png)
 
-2. Create an instance of Watson Studio
+
+### 2. Create an instance of Watson Studio
 * Repeat step 1. and create a Watson Studio instance.
+
+### 3. Create a Visual Recognition project in Watson Studio
+
+1. Go to your Resource list and click on *my-watson-studio*
+![](/screenshots/resource-list.png)
+2. Click the *Get Started* button.
+![](/screenshots/watson-studio-getstarted.png)
+3. Click again on *Get Started*
+![](/screenshots/getstarted.png)
+
+
+
+
+
 
 ## Steps
 1. Prepare training data (positive/negative images)
