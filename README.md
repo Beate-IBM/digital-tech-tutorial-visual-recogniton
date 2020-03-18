@@ -14,6 +14,8 @@ In this hands-on tutorial you will use IBM Watson Visual Recognition Service and
 * Click the *Create resource* button in the upper right.
 * In the left menu select *AI* and click the *Visual recognition* service.
 ![](/screenshots/catalog-visual-recognition.png)
+![](/screenshots/visual-recognition.png)
+
 2. Create an instance of Watson Studio
 * Repeat step 1. and create a Watson Studio instance.
 
