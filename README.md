@@ -1,5 +1,5 @@
 # :sunrise: IBM Digital Tech Tutorial: Watson Visual Recognition
-In this hands-on tutorial you will use IBM Watson Visual Recognition Service and build a virtual art expert
+In this hands-on tutorial you will use IBM Watson Visual Recognition Service and build a virtual art expert. It shows you how to create and train your custom image classifiers using your own image collections.
 
 ## Prerequisites
 1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration).
@@ -8,3 +8,18 @@ In this hands-on tutorial you will use IBM Watson Visual Recognition Service and
 4. Now you should be able to login to your new IBM Cloud account
 
 ## Set up the required IBM Cloud services
+Go to your Cloud account
+1. Hello
+    * hihi
+    * hihih
+2. hallo
+
+This is really **important**.
+
+*italic* text
+
+
+
+
+
+
