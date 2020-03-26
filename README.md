@@ -1,9 +1,11 @@
-# IBM Digital Tech Tutorial: Build your own art expert with Visual Recognition
+# IBM Digital Tech Tutorial: Build your own Art Expert with Visual Recognition
 
 ## This hands on tutorial uses Watson Studio and Watson Visual Recognition to identify the artist of your favorite paintings.
-![](/screenshots/intro-1.png)
+
+![](/screenshots/intro-0.png)
 
 ## Learning objectives
+
 After completing this tutorial you will be able to:
 * Create a Visual Recognition model in Watson Studio running on IBM Cloud
 * Capture images of paintings by artists such as Rubens, Renoir, van Gogh and Macke and zip them into a class (provided)
@@ -17,7 +19,7 @@ This tutorial can be completed using an IBM Cloud Lite account.
 3. After you submit your registration, you will receive an email from the IBM Cloud team with details about your account. In this email, you will need to click the link provided to confirm your registration.
 4. Now you should be able to log into [IBM Cloud](https://cloud.ibm.com/login).
 
-## Hands on lab overview
+## Hands on Tutorial Overview
 
 #### Step 1 - Capture Images
 We have created four zip files of paintings. You will use these pictures to identify the corresponding artist: Rubens, Renoir, van Gogh and Macke. These images will be used as your training set.
@@ -34,7 +36,7 @@ You will use sample pictures to confirm your model.
 #### Step 4 - Implement your model in your application
 Embed your model into an application using code snippets.
 
-## Create a Watson Studio service instance
+## Create a Watson Studio Service Instance
 
 * Open a Web browser and navigate to https://cloud.ibm.com
 
@@ -59,7 +61,7 @@ Embed your model into an application using code snippets.
 
     ![](/screenshots/watson-studio-2.png)
 
-## Create a Watson Studio project
+## Create a Watson Studio Project
 Projects are your workspace to organize your resources, such as assets like data, collaborators, and analytic tools like notebooks and models.
 
 * Click on **Create a project*
@@ -120,7 +122,7 @@ You are ready to set up your project with Watson Visual Recognition.
     ![](/screenshots/visual-recognition-2.png)
 
 ## Upload training data to your Watson Studio project
-* Four zip files have been prepared which contain paitings by the artists. Download the zip files here:
+* Four zip files have been prepared which contain paitings by the artists. Download the zip files [here](https://github.com/Beate-IBM/digital-tech-tutorial-visual-recogniton/tree/master/classes)
     * macke.zip
     * vangogh.zip
     * renoir.zip
@@ -136,73 +138,66 @@ You are ready to set up your project with Watson Visual Recognition.
 * You can see that four new classes were created, **macke**, **renoir**, **rubens** and **vangogh**
 * This custom classifier does not contain a Negative zip file. It is recommended but not required
  
-## Train your Watson VIsual Recognition Custom Classifier
+## Train your Watson Visual Recognition Custom Classifier
 
  * Click on the **Train Model** button
 
     ![](/screenshots/visual-recognition-5.png)
 
- * Wait a few (10-60) minutes for the model to train on the images
+ * Wait (between 10 min and 2 hours) for the model to train on the images and come back.
 
     ![](/screenshots/visual-recognition-6.png)
+  
+ * Once the model has been trained, click on the **here** link or on the **Painters** link at the top to view and test your model.
 
- * Once the model has been trained, click on the **Click here** link or the **Trained** link to view and test your model.
+    ![](/screenshots/visual-recognition-7.png)
 
-## Review and Test 
+## Review and Test
+
 * Click on the **Test** tab
 
-*Picture*
+    ![](/screenshots/visual-recognition-8.png)
 
-Test Watson Visual Recognition Custom Classifier with sample images
+* Test your Watson Visual Recognition custom classifier with sample images
 
-    Visit the Test Data directory and download the testdata.zip file. This zip file contains PNG and JPG images
-    Unlike the training datasets, you will need to unzip the images onto your local hard drive
-    Inspect a few of the breakfast images using a local image viewing utility or file browser
-    These images were not part of the training set and will be used to validate the visual recognition model
-    Return to the Test tab in the Watson Studio Flooding project
-    There are two techniques to upload the images into the Test page
-        Drag the individual images from your local file browser into the Test page
-        Click on the browse link to open a file selection dialog
+* Visit the [testdata](https://github.com/Beate-IBM/digital-tech-tutorial-visual-recogniton/tree/master/testdata) directory and download the image files onto your local hard drive. These images were not part of the training set and will be used to validate the visual recognition model.
+* Return to the **Test** tab in the Watson Studio project
+* There are two techniques to upload the images into the Test page:
+    * Drag the individual images from your local file browser into the Test page
+    * Click on the browse link to open a file selection dialog
 
-*picture*
+    ![](/screenshots/visual-recognition-9.png)
 
+* The trained custom classifier model will analyze the images
 
-    The trained custom classifier model will analyze the images
-    Inspect the Confidence scores returned by the Watson Visual Recognition Custom Classifier
+    ![](/screenshots/intro-0.png)
 
-*picture*
+* Inspect the Confidence scores returned by the Watson Visual Recognition Custom Classifier
 
-## Implement Watson Visual Recognition custom model in your Applications
+## Implement the Watson Visual Recognition custom model in your applications
 
-    You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages - Java, Node, Python, Ruby, Core ML
-    Click on the Implementation tab to review the Code snippets
+You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages - Java, Node, Python, Ruby, Core ML
 
-    *picture*
+* Click on the **Implementation** tab to review the code snippets
+* Click on the the name of your Associated Service
 
-Use the code snippets below to classify images against your model. For reference, the full API specification is available here
+    ![](/screenshots/visual-recognition-11.png)
 
-In the IBM Cloud Dashboard, search for and open your instance of Watson Visual Recognition and navigate into the Service Credentials section. Copy your apikey for use in the curl examples below.
+* Click on the **Credentials** tab
 
-    API endpoint
+    ![](/screenshots/visual-recognition-12.png)
 
-    https://gateway.watsonplatform.net/visual-recognition/api
+* Copy your **apikey** for use in the curl example below
 
-    Authentication
+* Use the code snippet to classify images against your model.
 
-    curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/{method}"
+    **Classify an image (GET)**
 
-    Classify an image (GET)
+    curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://az334033.vo.msecnd.net/images-4/roses-vincent-van-gogh-1890-2c442b97.jpg&version=2018-03-19&classifier_ids=Painters_1893624237"
 
-    curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg&version=2018-03-19&classifier_ids=CoffeeorDonuts_418020421"
+## Congratulations
 
-    Classify an image (POST)
-
-    curl -X POST -u "apikey:{apikey}"-F "images_file=@fruitbowl.jpg" -F "threshold=0.6" -F "classifier_ids=CoffeeorDonuts_418020421" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19"
-
-Congratulations
-
-You have completed the Coffee or Donuts Visual Recognition Lab and have identified Coffee Bags, Coffee Mugs and yummy donuts.
-
+You have completed the Visual Recognition Lab.
 
 
 
