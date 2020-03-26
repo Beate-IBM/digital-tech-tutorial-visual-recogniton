@@ -1,4 +1,4 @@
-# :sunrise: IBM Digital Tech Tutorial: Watson Visual Recognition
+# IBM Digital Tech Tutorial: Watson Visual Recognition
 Build your own art expert with Visual Recognition
 
 ## Introduction
@@ -15,7 +15,7 @@ After completing this tutorial you will be able to:
 ## Prerequisites
 This tutorial can be completed using an IBM Cloud Lite account.
 1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration).
-2. Fill in the required information and press the „Create Account" button.
+2. Fill in the required information and press the **Create Account** button.
 3. After you submit your registration, you will receive an e-mail from the IBM Cloud team with details about your account. In this e-mail, you will need to click the link provided to confirm your registration.
 4. Now you should be able to log into [IBM Cloud](https://cloud.ibm.com/login).
 
