@@ -64,7 +64,7 @@ Embed your model into an application using code snippets.
 ## Create a Watson Studio Project
 Projects are your workspace to organize your resources, such as assets like data, collaborators, and analytic tools like notebooks and models.
 
-* Click on **Create a project*
+* Click on **Create a project**
 
     ![](/screenshots/watson-studio-3.png)
 
