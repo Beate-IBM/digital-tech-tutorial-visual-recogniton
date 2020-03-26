@@ -84,7 +84,7 @@ Projects are your workspace to organize your resources, such as assets like data
     ![](/screenshots/cloud-object-storage-0.png)
     ![](/screenshots/cloud-object-storage-1.png)
 
-* Click on **Refresh** on the New project tab
+* Click on **Refresh**
 
     ![](/screenshots/watson-studio-6.png)
 
