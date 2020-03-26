@@ -164,7 +164,7 @@ You are ready to set up your project with Watson Visual Recognition.
 * Return to the **Test** tab in the Watson Studio project
 * There are two techniques to upload the images into the Test page:
     * Drag the individual images from your local file browser into the Test page
-    * Click on the browse link to open a file selection dialog
+    * Click on the **browse** link to open a file selection dialog
 
     ![](/screenshots/visual-recognition-9.png)
 
