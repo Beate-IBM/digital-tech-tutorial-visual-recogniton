@@ -160,7 +160,7 @@ You are ready to set up your project with Watson Visual Recognition.
 
 * Test your Watson Visual Recognition custom classifier with sample images
 
-* Visit the [testdata](https://github.com/Beate-IBM/digital-tech-tutorial-visual-recogniton/tree/master/testdata) directory and download the image files onto your local hard drive. These images were not part of the training set and will be used to validate the visual recognition model.
+* Visit the [testdata](https://github.com/Beate-IBM/digital-tech-tutorial-visual-recogniton/tree/master/testdata) directory and download the image files onto your local hard drive. These images were not part of the training set and will be used to validate the Visual Recognition model.
 * Return to the **Test** tab in the Watson Studio project
 * There are two techniques to upload the images into the Test page:
     * Drag the individual images from your local file browser into the Test page
