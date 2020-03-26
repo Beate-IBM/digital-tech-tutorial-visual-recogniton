@@ -172,7 +172,7 @@ You are ready to set up your project with Watson Visual Recognition.
 
     ![](/screenshots/intro-0.png)
 
-* Inspect the Confidence scores returned by the Watson Visual Recognition Custom Classifier
+* Inspect the confidence scores returned by the Watson Visual Recognition Custom Classifier
 
 ## Implement the Watson Visual Recognition custom model in your applications
 
