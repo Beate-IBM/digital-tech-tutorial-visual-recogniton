@@ -30,10 +30,10 @@ Watson Studio provides a suite of tools and a collaborative environment for data
 #### Step 3 - Build a Visual Recognition model
 You will create a Watson Visual Recognition model to identify images in several classes.
 
-#### Step 3 - Test the model
+#### Step 4 - Test the model
 You will use sample pictures to confirm your model.
 
-#### Step 4 - Implement your model in your application
+#### Step 5 - Implement your model in your application
 Embed your model into an application using code snippets.
 
 ## Create a Watson Studio Service Instance
