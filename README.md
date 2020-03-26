@@ -1,4 +1,4 @@
-# :sunrise: IBM Digital Tech Tutorial: Watson Visual Recognition
+IBM Digital Tech Tutorial: Watson Visual Recognition
 Build your own art expert with Visual Recognition
 
 ## Introduction
