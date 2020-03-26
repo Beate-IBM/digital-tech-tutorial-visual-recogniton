@@ -47,7 +47,7 @@ Embed your model into an application using code snippets.
 * In the left menu select **AI** and click on the the **Watson Studio** service tile
 
     ![](/screenshots/catalog-0.png)
-* Select **Dallas** as region
+* Select a region: **Dallas**
 
     ![](/screenshots/watson-studio-0.png)
 
