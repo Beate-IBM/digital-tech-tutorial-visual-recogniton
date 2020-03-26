@@ -189,6 +189,8 @@ You can incorporate this Watson Visual Recognition Custom Classifier model into 
 
 * Copy your **apikey** for use in the curl example below
 
+    ![](/screenshots/visual-recognition-12.png)
+    
 * Use the code snippet to classify images against your model.
 
     **Classify an image (GET)**
