@@ -97,7 +97,7 @@ Projects are your workspace to organize your resources, such as assets like data
    ![](/screenshots/watson-studio-8.png)
 
 * Your project needs to be associated with a Watson Visual Recognition Service instance
-* Click on the **here** link in the popup to Associate a Watson Visual Recognition service.
+* Click on the **here** link in the popup to associate a Watson Visual Recognition service.
 
     ![](/screenshots/watson-studio-9.png)
 
@@ -112,7 +112,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
     ![](/screenshots/watson-studio-10.png)
 
-You are ready to set up your project with Watson Visual Recognition. 
+You are now ready to set up your project with Watson Visual Recognition.
 
 ## Create a Visual Recognition Model
 * The **Default Custom Model** name is not descriptive so let's rename it
@@ -136,7 +136,7 @@ You are ready to set up your project with Watson Visual Recognition.
     ![](/screenshots/visual-recognition-4.png)
 
 * You can see that four new classes were created, **macke**, **renoir**, **rubens** and **vangogh**
-* This custom classifier does not contain a Negative zip file. It is recommended but not required
+* This Custom Classifier does not contain a Negative zip file. It is recommended but not required
  
 ## Train your Watson Visual Recognition Custom Classifier
 
@@ -158,17 +158,17 @@ You are ready to set up your project with Watson Visual Recognition.
 
     ![](/screenshots/visual-recognition-8.png)
 
-* Test your Watson Visual Recognition custom classifier with sample images
+* Test your Watson Visual Recognition Custom Classifier with sample images
 
 * Visit the [testdata](https://github.com/Beate-IBM/digital-tech-tutorial-visual-recogniton/tree/master/testdata) directory and download the image files onto your local hard drive. These images were not part of the training set and will be used to validate the Visual Recognition model.
 * Return to the **Test** tab in the Watson Studio project
 * There are two techniques to upload the images into the Test page:
-    * Drag the individual images from your local file browser into the Test page
+    * Drag the individual images from your local file browser into the **Test** page
     * Click on the **browse** link to open a file selection dialog
 
     ![](/screenshots/visual-recognition-9.png)
 
-* The trained custom classifier model will analyze the images
+* The trained Custom Classifier model will analyze the images
 
     ![](/screenshots/intro-0.png)
 
@@ -179,7 +179,7 @@ You are ready to set up your project with Watson Visual Recognition.
 You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages - Java, Node, Python, Ruby, Core ML
 
 * Click on the **Implementation** tab to review the code snippets
-* Click on the the name of your Associated Service
+* Click on the the name next to **Associated Service**
 
     ![](/screenshots/visual-recognition-11.png)
 
